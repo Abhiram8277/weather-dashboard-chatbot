@@ -1,10 +1,6 @@
-# weather.py
-
 import requests
-
-API_KEY = "your_api_key_here"  # Replace with your real API key
+API_KEY = "your_api_key_here"  
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
-
 def get_weather(city_name):
     params = {
         "q": city_name,
